@@ -1,0 +1,30 @@
+table{
+    width: 90%;
+    >tr{
+        width: 100%;
+        display: flex;
+        margin-bottom: 0.2rem;
+        box-shadow: 0 0 5px black;
+        .user-image{
+            width: 10%;
+            display: flex;
+            align-items: center;
+            
+        }
+        .user-name{
+            width: 40%;
+            display: flex;
+            align-items: center;
+        }
+        .user-email{
+            width: 40%;
+            display: flex;
+            align-items: center;
+        }
+        .user-gender{
+            width: 10%;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.home{
+    box-sizing: border-box;
+    margin: 3rem;
+    width: 100%;
+    .table-heading{
+        width: 90%;
+        height: 30px;
+        background-color: black;
+        color: white;
+        >tr{
+            width: 100%;
+            display: flex;
+            
+            .image{
+                width: 10%;
+                display: flex;
+            }
+            .name{
+                width: 40%;
+                display: flex;
+            }
+            .email{
+                width: 40%;
+                display: flex;
+            }
+            .gender{
+                width: 10%;
+                display: flex;
+            }
+        }
+    }
+}
